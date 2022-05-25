@@ -6,7 +6,8 @@ import cv2
 from PIL import Image
 
 # assign directory
-directory = '/home/chris/Desktop/RIDB-20220510T095046Z-001/RIDB'
+directory = #input the path to the directory of the database
+
 
 for image in os.listdir(directory):
     image_filename = directory + "/" + image
